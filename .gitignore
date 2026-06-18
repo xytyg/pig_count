@@ -1,0 +1,23 @@
+# 视频文件
+src/*.mp4
+
+# 模型文件（保留 best.pt）
+src/*.pt
+!src/best.pt
+
+# 编译产物
+dist/
+build/
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 日志
+log.txt
+
+# 编辑器
+.vscode/
+
+# 备份文件
+*.bak
